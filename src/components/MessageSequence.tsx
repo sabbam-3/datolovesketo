@@ -2,12 +2,12 @@ import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 const messages = [
-  { text: 'Sonya...', heart: '💕' },
-  { text: 'We have been together for 1 month already but.....', heart: '💗' },
-  { text: 'It was 31 amazing days spent with you...', heart: '💖' },
-  { text: 'There were hours of not seeing you and...', heart: '💘' },
-  { text: 'I missed you...', heart: '💓' },
-  { text: 'So please try not to spend any other second without me...', heart: '💞' },
+  { text: 'Keto...', heart: '💕' },
+  { text: 'We have been together for 7 years already...', heart: '💗' },
+  { text: 'One year ago, on September 6th, I asked you to be mine forever...', heart: '💖' },
+  { text: 'And you said yes...', heart: '💘' },
+  { text: 'Every single day with you has been a blessing...', heart: '💓' },
+  { text: 'So please never let me spend a second without you...', heart: '💞' },
   { text: 'I love you to the moon and back.', heart: '💝' },
 ]
 
