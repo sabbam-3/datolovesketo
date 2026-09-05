@@ -2,13 +2,13 @@ import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 const messages = [
-  { text: 'Keto...', heart: '💕' },
-  { text: 'We have been together for 7 years already...', heart: '💗' },
-  { text: 'One year ago, on September 6th, I asked you to be mine forever...', heart: '💖' },
-  { text: 'And you said yes...', heart: '💘' },
-  { text: 'Every single day with you has been a blessing...', heart: '💓' },
-  { text: 'So please never let me spend a second without you...', heart: '💞' },
-  { text: 'I love you to the moon and back.', heart: '💝' },
+  { text: 'ქეთევან ჩემო სიყვარულო', heart: '💕' },
+  { text: '6 დაუვიწყარი წელია რაც მიხალისებ და მილამაზებ ცხოვრებას', heart: '💗' },
+  { text: 'ერთი წლის წინ 6 სექტემბერს ხელი ვთხოვე ყველაზე ლამაზ ქალს მსოფლიოში', heart: '💖' },
+  { text: 'და შენ მითხარი კი', heart: '💘' },
+  { text: 'ყოველი დღე 2020 წლის 26 სექტემბრიდან დღემდე არის დაუვიწყარი და ვიცი რომ სიცოცხლის ბოლომდე ასე იქნება', heart: '💓' },
+  { text: 'მიყვარხარ ყველაზე მეტად ჩემო ყველაფერო, მიყვარს შენი სიცილი, შენი ხმა, შენი თვალები, სადაც ყოველთვის ვგრძნობ სიმშვიდეს. მიყვარხარ იმისთვის ვინც ხარ და მინდა იცოდე რომ შენი არსებობა ჩემთვის ყველაზე ძვირფასია. მიყვარხარ და ეს სიტყვა არასდროს დაკარგავს ძალას, არასდროს იქნება საკმარისი იმის გამოსახატად რასაც მე შენ მიმართ ვგრძნობ', heart: '💞' },
+  { text: 'წამოხვალ ჩემთან ბათუმში პაემანზე?', heart: '💝' },
 ]
 
 interface MessageSequenceProps {
@@ -68,7 +68,7 @@ export default function MessageSequence({ onComplete }: MessageSequenceProps) {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        {isLast ? 'Continue 💝' : 'Next'}
+        {isLast ? 'გაგრძელება 💝' : 'შემდეგი'}
       </motion.button>
 
       <div className="flex gap-1.5 mt-5">

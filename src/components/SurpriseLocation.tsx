@@ -66,7 +66,7 @@ export default function SurpriseLocation({ onComplete }: SurpriseLocationProps) 
           animate={{ opacity: [0.5, 1, 0.5] }}
           transition={{ duration: 1.5, repeat: Infinity }}
         >
-          Finding the perfect place...
+          იდეალურ ადგილს ვეძებ...
         </motion.p>
       )}
 
@@ -95,7 +95,7 @@ export default function SurpriseLocation({ onComplete }: SurpriseLocationProps) 
           transition={{ type: 'spring', stiffness: 200, damping: 15 }}
         >
           <p className="text-4xl">✨</p>
-          <p className="font-handwritten text-lg text-warm-gray/70">I picked...</p>
+          <p className="font-handwritten text-lg text-warm-gray/70">ავირჩიე...</p>
           <p className="font-handwritten text-2xl sm:text-3xl font-bold text-rose-deep">
             {finalResult}
           </p>
@@ -108,7 +108,7 @@ export default function SurpriseLocation({ onComplete }: SurpriseLocationProps) 
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            Perfect! 💖
+            იდეალურია! 💖
           </motion.button>
         </motion.div>
       )}

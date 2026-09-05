@@ -68,7 +68,7 @@ export default function FinalResult({ selections }: FinalResultProps) {
           animate="visible"
           className="font-handwritten text-3xl sm:text-4xl font-bold text-rose-deep"
         >
-          Perfect 💝
+          იდეალურია 💝
         </motion.p>
 
         {dateType && (
@@ -123,7 +123,7 @@ export default function FinalResult({ selections }: FinalResultProps) {
             animate={{ scale: [1, 1.05, 1] }}
             transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
           >
-            It's a date!
+            პაემანია!
           </motion.p>
         </motion.div>
 
@@ -134,7 +134,7 @@ export default function FinalResult({ selections }: FinalResultProps) {
           animate="visible"
           className="text-sm text-warm-gray/50 mt-6"
         >
-          Screenshot this and send it to me 💌
+          გადაიღე სქრინშოტი და გამომიგზავნე 💌
         </motion.p>
       </div>
     </div>

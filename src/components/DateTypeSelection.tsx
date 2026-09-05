@@ -22,7 +22,7 @@ export default function DateTypeSelection({ onSelect }: DateTypeSelectionProps) 
   return (
     <div className="bg-white/80 backdrop-blur-sm rounded-card shadow-romantic p-6 sm:p-8">
       <h2 className="font-handwritten text-2xl sm:text-3xl font-bold text-warm-gray text-center mb-6">
-        What kind of a date?
+        რა ტიპის პაემანი?
       </h2>
 
       <motion.div

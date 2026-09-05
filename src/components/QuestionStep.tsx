@@ -30,9 +30,9 @@ export default function QuestionStep({ onYes }: QuestionStepProps) {
         </motion.span>
 
         <h1 className="font-handwritten text-3xl sm:text-4xl font-bold text-warm-gray text-center leading-tight">
-          Will you go out
+          წამოხვალ ჩემთან
           <br />
-          with me?
+          პაემანზე?
         </h1>
 
         <div className="flex items-center gap-4 mt-4 flex-wrap justify-center">

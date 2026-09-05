@@ -2,18 +2,18 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { motion, useMotionValue, useSpring } from 'framer-motion'
 
 const noTexts = [
-  'No',
-  'Surely not?',
-  'Are you sure?',
-  'Really? 🥺',
-  'Think again',
-  'Come on...',
-  'You know you want to ❤️',
-  'Okay, seriously?',
-  'Not gonna happen!',
-  'Try again 😏',
-  'Nope!',
-  'Almost got me!',
+  'არა',
+  'ნამდვილად არა?',
+  'დარწმუნებული ხარ?',
+  'სერიოზულად? 🥺',
+  'კიდევ იფიქრე',
+  'დაი მაგას...',
+  'შენ თვითონ გინდა ❤️',
+  'კარგი, სერიოზულად?',
+  'ვერ დამიჭერ!',
+  'ისევ სცადე 😏',
+  'არა!',
+  'თითქმის დამიჭირე!',
 ]
 
 const DODGE_THRESHOLD = 110

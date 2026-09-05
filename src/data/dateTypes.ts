@@ -1,10 +1,10 @@
 import type { DateType } from '../types/date'
 
 export const dateTypes: DateType[] = [
-  { id: 'coffee', label: 'Coffee Date', emoji: '☕' },
-  { id: 'dinner', label: 'Dinner Date', emoji: '🍝' },
-  { id: 'movie', label: 'Movie Night', emoji: '🎬' },
-  { id: 'sunset', label: 'Sunset Date', emoji: '🌅' },
-  { id: 'walk', label: 'Walk & Talk', emoji: '🚶' },
-  { id: 'fun', label: 'Something Fun', emoji: '🎨' },
+  { id: 'coffee', label: 'ყავაზე', emoji: '☕' },
+  { id: 'dinner', label: 'ვახშამზე', emoji: '🍝' },
+  { id: 'movie', label: 'კინოში', emoji: '🎬' },
+  { id: 'sunset', label: 'მზის ჩასვლაზე', emoji: '🌅' },
+  { id: 'walk', label: 'გასეირნება', emoji: '🚶' },
+  { id: 'fun', label: 'რამე სახალისო', emoji: '🎨' },
 ]

@@ -22,7 +22,7 @@ export default function LocationSelection({ onSelect }: LocationSelectionProps) 
   return (
     <div className="bg-white/80 backdrop-blur-sm rounded-card shadow-romantic p-6 sm:p-8">
       <h2 className="font-handwritten text-2xl sm:text-3xl font-bold text-warm-gray text-center mb-6">
-        Where should we go?
+        სად წავიდეთ?
       </h2>
 
       <motion.div
