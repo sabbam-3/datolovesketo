@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "DM Galaktioni";
+  src: url("/fonts/DM-Galaktioni-UNI-180426073.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-rose-light: #fce4ec;
   --color-rose-medium: #f48fb1;
@@ -11,9 +19,9 @@
   --color-gold: #ffb74d;
   --color-sunset: #ff7043;
 
-  --font-display: "Playfair Display", serif;
-  --font-body: "Inter", sans-serif;
-  --font-handwritten: "Dancing Script", cursive;
+  --font-display: "DM Galaktioni", "Noto Serif Georgian", serif;
+  --font-body: "Noto Sans Georgian", sans-serif;
+  --font-handwritten: "DM Galaktioni", "Noto Serif Georgian", serif;
 
   --shadow-romantic: 0 4px 20px rgba(233, 30, 99, 0.15);
   --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);

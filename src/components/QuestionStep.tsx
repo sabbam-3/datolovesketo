@@ -30,9 +30,9 @@ export default function QuestionStep({ onYes }: QuestionStepProps) {
         </motion.span>
 
         <h1 className="font-handwritten text-3xl sm:text-4xl font-bold text-warm-gray text-center leading-tight">
-          წამოხვალ ჩემთან
+          წამოხვალ ჩემთან ერთად
           <br />
-          პაემანზე?
+          პაემანზე ბათუმში?
         </h1>
 
         <div className="flex items-center gap-4 mt-4 flex-wrap justify-center">
@@ -44,7 +44,7 @@ export default function QuestionStep({ onYes }: QuestionStepProps) {
             whileHover={{ y: -2 }}
             whileTap={{ scale: yesScale * 0.95 }}
           >
-            Yes {yesHearts.slice(0, heartCount).join('')}
+            კი {yesHearts.slice(0, heartCount).join('')}
           </motion.button>
         </div>
       </div>

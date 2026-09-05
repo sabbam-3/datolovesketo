@@ -69,7 +69,7 @@ export default function Celebration({ onComplete }: CelebrationProps) {
           🎉
         </motion.p>
         <h1 className="font-handwritten text-5xl sm:text-6xl font-bold text-rose-deep mb-3">
-          ურაა!
+          აბა რაა!
         </h1>
         <motion.p
           className="font-handwritten text-2xl sm:text-3xl text-warm-gray"
